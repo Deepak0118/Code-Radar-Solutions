@@ -3,5 +3,5 @@ int main()
 {
     int i;
     scanf("%i",&i);
-    printf("Ypu entered: %d",i)
+    printf("You entered: %d",i);
 }
