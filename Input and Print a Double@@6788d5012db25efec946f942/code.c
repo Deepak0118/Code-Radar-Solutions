@@ -4,5 +4,5 @@ int main()
 {
     double i;
     scanf("%lf",&i);
-    printf("You entered: %.4f",i);
+    printf("You entered: %.4lf",i);
 }
