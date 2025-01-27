@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int x,y;
+    int x,y,result;
     scanf("%d",&x);
     scanf("%d",&y);
     result = x | y;
