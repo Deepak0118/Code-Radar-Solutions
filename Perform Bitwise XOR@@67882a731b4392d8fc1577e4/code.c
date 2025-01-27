@@ -2,6 +2,6 @@
 
 int main(){
     int x,y,result;
-    result = x^y;
+    result = x ^ y;
     printf("%d",result);
 }
