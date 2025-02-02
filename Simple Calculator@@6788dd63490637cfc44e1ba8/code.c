@@ -10,7 +10,12 @@ int main(){
         printf("%d",i-j);
     }
     else if(k=='/'){
-        printf("%f",i/j);
+        if(j==0){
+            printf("Error");
+        }
+        else{
+            printf("%d",i/j);
+        }
     }
     else if(k=='*'){
         printf("%d",i*j);
