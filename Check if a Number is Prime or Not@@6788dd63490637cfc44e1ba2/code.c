@@ -18,7 +18,7 @@ int main(){
             
             
         } 
-        if(p=0){
+        if(p==0){
             printf("Prime");
         }
     }
