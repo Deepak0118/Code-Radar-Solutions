@@ -21,6 +21,6 @@ int main(){
         printf("%d",i*j);
     }
     else{
-        printf("Error");
+        printf("error");
     }
 }
