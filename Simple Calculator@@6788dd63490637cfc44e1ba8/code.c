@@ -16,4 +16,7 @@ int main(){
     else if(k=='*'){
         printf("%d",i*j);
     }
+    else{
+        printf("error");
+    }
 }
