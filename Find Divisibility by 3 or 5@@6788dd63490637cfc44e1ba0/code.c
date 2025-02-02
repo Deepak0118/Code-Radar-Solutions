@@ -10,7 +10,11 @@ int main(){
     }
     else if(i%5==0 && i%3!=0){
         printf("Divisible by 5");
+
     
+    }
+    else{
+        printf("Not Divisible");
     }
 
 }
