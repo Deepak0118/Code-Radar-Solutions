@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int i,j;
     scanf("%d",&i);
@@ -10,6 +9,7 @@ int main(){
         for(j=2;j<i;j++){
             if(i%j==0){
                 printf("Not Prime");
+                break
             }
             else{
                 printf("Prime");
