@@ -9,7 +9,7 @@ int main(){
         printf("Prime");
     }
     else{
-        for(j=3;j<i;j++){
+        for(j=2;j<i;j++){
             if(i%j==0){
                 printf("Not Prime");
                 break;
