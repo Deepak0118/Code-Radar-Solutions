@@ -2,6 +2,7 @@
 
 int main(){
     int i;
+    scanf("%d",&i);
     if(i>=60){
         printf("Eligible");
     }
