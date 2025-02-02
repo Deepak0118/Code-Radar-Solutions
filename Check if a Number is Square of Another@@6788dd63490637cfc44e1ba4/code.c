@@ -2,7 +2,7 @@
 int main(){
     int i ,j;
     scanf("%d %d",&i,&j);
-    if(i/j==j){
+    if(i/j==j &&i%j==0){
         printf("Yes");
     }
     else{
