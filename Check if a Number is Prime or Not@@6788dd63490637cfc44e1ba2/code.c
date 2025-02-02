@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int i,j;
+    int i,j,p;
     scanf("%d",&i);
     if (i==1){
         printf("Not Prime");
@@ -12,11 +12,14 @@ int main(){
         for(j=2;j<i;j++){
             if(i%j==0){
                 printf("Not Prime");
+                p = p+1;
                 break;
             }
-            else{
-                printf("Prime");
-            }
+            
+            
         } 
+        if(p=0){
+            printf("Prime");
+        }
     }
 }
