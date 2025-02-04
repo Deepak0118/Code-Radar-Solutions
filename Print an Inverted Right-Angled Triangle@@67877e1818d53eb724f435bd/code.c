@@ -8,10 +8,14 @@ int main(){
             if(j>=1 && j<=i){
                 printf("*",);
             }
+            else{
+                printf(" ");
+            }
 
         }
-        printf(" ");
+        printf("\n");
+        
 
     }
-    printf("\n");
+    
 }
