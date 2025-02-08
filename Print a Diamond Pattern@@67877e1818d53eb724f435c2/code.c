@@ -6,7 +6,9 @@ int main(){
         for(j=1;j<=2*n-1;j++){
         
         if(j>=n+1-i && j<=n+i-1){
+            if(j>0){
             printf("*");
+            }
             
         }
         else{
