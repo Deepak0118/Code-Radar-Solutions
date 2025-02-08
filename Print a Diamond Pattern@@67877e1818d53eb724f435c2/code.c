@@ -10,13 +10,14 @@ int main(){
             printf("*");
                         
         }
-        else if (j<=n+i-1){
+        else if((j>=i-n+1 && j<=2n+3-i)&&(i>n)){
             printf("*");
         }
         else{
             printf(" ");
-        }
+            }
         }
         printf("\n");
+
     }
 }
