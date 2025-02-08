@@ -10,6 +10,9 @@ int main(){
             printf("*");
                         
         }
+        else if (j<=n+i-1){
+            printf("*");
+        }
         else{
             printf(" ");
         }
