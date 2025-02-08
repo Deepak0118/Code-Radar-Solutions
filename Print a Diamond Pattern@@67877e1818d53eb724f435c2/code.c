@@ -7,8 +7,9 @@ int main(){
         if((i==1 || i==2*n-1) && (j==n) ){
             printf("*");
         }
-        else{
-            printf(" ");
+        else if(j>=n+1-i && j<=n+i-1){
+            printf("*");
+            
         }
         }
         printf("\n");
