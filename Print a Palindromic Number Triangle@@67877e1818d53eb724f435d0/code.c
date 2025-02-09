@@ -7,6 +7,10 @@ int main(){
             if(j>=n+1-i && j<= n+i-1){
                 printf("*");
             }
+            else{
+                printf(" ");
+            }
         }
+        printf("\n");
     }
 }
