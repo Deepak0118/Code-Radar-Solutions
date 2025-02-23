@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
     int t;
+    int a;
     scanf("%d",&t);
     while(t--){
         int num;
@@ -10,7 +11,7 @@ int main(){
     }
     return 0
 }
-isPrime(int a){
+isPrime(a){
     int p = 0;
     if(a==1){
         return 0
