@@ -1,6 +1,6 @@
 #include <stdio.h>
 int isPrime(int a){
-    int p = 0;
+    int p = 0,i;
     if(a==1){
         return 0;
     }
