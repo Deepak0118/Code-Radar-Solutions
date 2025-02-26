@@ -14,7 +14,7 @@ int main(){
         
 
     }
-    }
+    
     for(int l=0;l<a;l++){
         printf("%d",j[l]);
     }
