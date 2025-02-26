@@ -9,15 +9,16 @@ int main(){
     int k;
     scanf("%d",&k);
     int p = a/2;
+    int p[a];
     for(int n=0;n<p;n++){
     
-        j[n+k] = j[n];
+        p[n+k] = j[n];
         
 
     }
     
     for(int l=0;l<a;l++){
-        printf("%d",j[l]);
+        printf("%d",p[l]);
     }
     
 }
