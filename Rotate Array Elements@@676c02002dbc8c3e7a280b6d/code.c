@@ -8,9 +8,9 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    int p = a/2;
+    int m = a/2;
     char p[a];
-    for(int n=0;n<p;n++){
+    for(int n=0;n<m;n++){
     
         p[n+k] = j[n];
         
