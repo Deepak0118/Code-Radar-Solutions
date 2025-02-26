@@ -15,7 +15,7 @@ int main(){
 
     }
     arr1[1] = arr[size-1];
-    arr1[1] = arr[size-1];
+    arr1[1] = arr[size-2];
     for(int k =0;k<size;k++){
         printf("%d\n",arr1[k]);
     }
