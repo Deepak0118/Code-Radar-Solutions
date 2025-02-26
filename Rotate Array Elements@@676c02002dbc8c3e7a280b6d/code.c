@@ -21,8 +21,8 @@ int main(){
     }
     }
     else if(size==2){
-        arr1[1] == arr[0];
-        arr1[0] == arr[1];
+        arr1[1] = arr[0];
+        arr1[0] = arr[1];
         printf("%d\n",arr1[0]);
         printf("%d\n",arr1[1]);
     }
