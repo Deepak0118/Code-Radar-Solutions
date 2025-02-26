@@ -8,7 +8,8 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    for(int n=0;n<a;n++){
+    int p = a/2;
+    for(int n=0;n<p;n++){
     
         j[n+k] = j[n];
         
