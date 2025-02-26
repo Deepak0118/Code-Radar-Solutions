@@ -16,6 +16,9 @@ int main(){
 
     }
     arr1[0] = arr[size-shift];
+    for(int k =0;k<size;k++){
+        printf("%d",arr1[k]);
+    }
     }
     else if(size==2){
         arr1[1] == arr[0];
