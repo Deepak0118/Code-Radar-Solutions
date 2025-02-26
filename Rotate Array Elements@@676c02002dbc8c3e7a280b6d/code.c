@@ -9,7 +9,7 @@ int main(){
     int k;
     scanf("%d",&k);
     for(int n=0;n<a;n++){
-        for(int p=0;p<a;p++){
+    
         j[n+k] = j[n];
         
 
