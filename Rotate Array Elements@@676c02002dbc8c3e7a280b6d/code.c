@@ -13,12 +13,12 @@ int main(){
         if(j+pos < n)
         ne[j+pos]=a[j];
         else{
-            int a = n -j-1;
-            int b = pos - a;
+            int ab = n -j-1;
+            int b = pos - ab;
             int m[100];
-            m[j + a] = a[j];
+            m[j + ab] = a[j];
             int s[200];
-            s[b] = m [j+a];
+            s[b] = m [j+ab];
             ne[j+pos] = s[b];
         }
     }
