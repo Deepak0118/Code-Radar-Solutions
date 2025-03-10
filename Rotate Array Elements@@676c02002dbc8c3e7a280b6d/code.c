@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int size;
-    scanf("%d",&size);
-    int a[size];
+    int n;
+    scanf("%d",&n);
+    int a[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
