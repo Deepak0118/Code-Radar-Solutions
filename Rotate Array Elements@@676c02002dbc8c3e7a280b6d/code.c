@@ -14,7 +14,12 @@ int main(){
         ne[j+pos]=a[j];
         else{
             int a = n -j-1;
-            // int m[] = 
+            int b = pos - a;
+            int m[100];
+            m[j + a] = a[j];
+            int s[200];
+            s[b] = m [j+a];
+            ne[j+pos] = s[b];
         }
     }
     for(int o = 0;o<n;o++){
