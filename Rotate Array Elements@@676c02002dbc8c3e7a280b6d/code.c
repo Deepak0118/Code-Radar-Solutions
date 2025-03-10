@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     int pos;
-    int ne[n];
+    int ne[n] = {0};
     scanf("%d",&pos);
     for(int j =0;j<n;j++){
         ne[j+pos]==a[j];
