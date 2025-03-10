@@ -19,7 +19,7 @@ int main(){
             m[j + ab] = a[j];
             int s[200];
             s[b] = m [j+ab];
-            ne[j+pos] = s[b];
+            ne[b] = s[b];
         }
     }
     for(int o = 0;o<n;o++){
