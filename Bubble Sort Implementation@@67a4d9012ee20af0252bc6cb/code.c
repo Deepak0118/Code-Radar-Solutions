@@ -1,4 +1,4 @@
-int bubbleSort(arr[], n){
+int bubbleSort(arr[], int n){
     int min;
     arr[0] = min;
     for(int i=1;i<n;i++){
