@@ -1,19 +1,19 @@
-void bubbleSort(int arr[] , int n){
-    if(n == 1){
+void bubbleSort(int arr[],int n){
+    if(n==1){
         return;
     }
-    int max = arr[0];
-    for(int k = 1;k<n;k++){
-        if(max<arr[k]){
-            max = arr[k];
+    for(int i=0;i<n-1;i++){
+        if(arr[i] > arr[i+1]){
+            int temp = arr[i];
+            arr[i] = arr[i+1];
+            arr[i+1] = temp;
         }
     }
-    arr[n-1] = max;
-    return bubbleSort(arr, n-1);
+    bubbleSort(arr, n-1);
 }
 void printArray(int arr[], int n){
-    for(int j = 0;j<n;j++){
+    for(int j =0;j<n;j++){
         printf("%d",arr[j]);
-        printf(" ");
     }
+    printf(" ");
 }
