@@ -1,6 +1,6 @@
 int bubbleSort(int arr[] , int n){
     if(n == 1){
-        return ;
+        return;
     }
     int max = arr[0];
     for(int k = 1;k<n;k++){
