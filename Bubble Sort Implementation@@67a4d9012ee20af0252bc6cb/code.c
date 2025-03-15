@@ -1,10 +1,20 @@
-int bubbleSort(int ar[], int a){
-    int min;
-    ar[0] = min;
-    for(int i=1;i<a;i++){
-        if(min>ar[i]){
-            min = ar[i];
+int bubbleSort(int ar[] , int n){
+    static int p = 0
+    int min= ar[p];
+    for(int k=p+1;k<n;k++){
+        if(min>ar[k]){
+            min = ar[k];
         }
     }
-    printf("%d",min);
+    
+    ar[p] = min;
+    p++;
+    return bubbleSort(ar[], int n)
+}
+
+int printArray(arr, n){
+    for(int o=0;o<n;o++){
+        printf("%d",o);
+        printf(" ");
+    }
 }
