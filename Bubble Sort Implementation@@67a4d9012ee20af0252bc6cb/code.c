@@ -1,15 +1,15 @@
-int bubbleSort(int ar[] , int n){
+int bubbleSort(int arr[] , int n){
     static int p = 0;
-    int min= ar[p];
+    int min= arr[p];
     for(int k=p+1;k<n;k++){
-        if(min>ar[k]){
-            min = ar[k];
+        if(min>arr[k]){
+            min = arr[k];
         }
     }
     
-    ar[p] = min;
+    arr[p] = min;
     p++;
-    return bubbleSort(ar[], int n);
+    return bubbleSort(arr[], int n);
 }
 
 int printArray(int arr[],int n){
