@@ -1,4 +1,7 @@
 int bubbleSort(int arr[] , int n){
+    if(p==n){
+        return 1;
+    }
     static int p = 0;
     int min= arr[p];
     for(int k=p+1;k<n;k++){
@@ -9,7 +12,7 @@ int bubbleSort(int arr[] , int n){
     
     arr[p] = min;
     p++;
-    return bubbleSort(int arr[] , int n);
+    return bubbleSort(arr[] , n);
 }
 
 int printArray(int arr[],int n){
