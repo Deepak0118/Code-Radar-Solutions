@@ -9,7 +9,7 @@ int bubbleSort(int ar[] , int n){
     
     ar[p] = min;
     p++;
-    return bubbleSort(ar[], int n)
+    return bubbleSort(ar[], int n);
 }
 
 int printArray(arr, n){
