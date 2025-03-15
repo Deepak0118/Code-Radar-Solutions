@@ -1,8 +1,9 @@
 int bubbleSort(int arr[] , int n){
+    
+    static int p = 0;
     if(p==n){
         return 1;
     }
-    static int p = 0;
     int min= arr[p];
     for(int k=p+1;k<n;k++){
         if(min>arr[k]){
