@@ -11,3 +11,9 @@ int bubbleSort(int arr[] , int n){
     arr[n-1] = max;
     return bubbleSort(arr, n-1);
 }
+int printArray(int arr[], int n){
+    for(int j = 0;j<n;j++){
+        printf("%d",arr[j]);
+        printf(" ");
+    }
+}
