@@ -1,24 +1,13 @@
 int bubbleSort(int arr[] , int n){
-    
-    static int p = 0;
-    if(p==n){
-        return 1;
+    if(n == 1){
+        return ;
     }
-    int min= arr[p];
-    for(int k=p+1;k<n;k++){
-        if(min>arr[k]){
-            min = arr[k];
+    int max = arr[0];
+    for(int k = 1;k<n;k++){
+        if(max<arr[k]){
+            max = arr[k];
         }
     }
-    
-    arr[p] = min;
-    p++;
-    return bubbleSort(arr , n);
-}
-
-int printArray(int arr[],int n){
-    for(int o=0;o<n;o++){
-        printf("%d",arr[o]);
-        printf(" ");
-    }
+    arr[n-1] = max;
+    return bubbleSort(arr, n-1);
 }
