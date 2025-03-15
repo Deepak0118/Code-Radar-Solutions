@@ -1,5 +1,5 @@
 int bubbleSort(int ar[] , int n){
-    static int p = 0
+    static int p = 0;
     int min= ar[p];
     for(int k=p+1;k<n;k++){
         if(min>ar[k]){
