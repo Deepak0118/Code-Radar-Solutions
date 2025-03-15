@@ -1,9 +1,9 @@
-int bubbleSort(arr[], int n){
+int bubbleSort(int ar[], int a){
     int min;
-    arr[0] = min;
-    for(int i=1;i<n;i++){
-        if(min>arr[i]){
-            min = arr[i];
+    ar[0] = min;
+    for(int i=1;i<a;i++){
+        if(min>ar[i]){
+            min = ar[i];
         }
     }
     printf("%d",min);
