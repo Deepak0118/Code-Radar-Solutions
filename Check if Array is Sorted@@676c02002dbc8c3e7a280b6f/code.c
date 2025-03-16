@@ -10,7 +10,7 @@ void sort(int arr[], int n){
             arr[j] = temp;
         }
     }
-    return sort(ar, n-1);
+    return sort(arr, n-1);
 }
 int main(){
     int n ;
