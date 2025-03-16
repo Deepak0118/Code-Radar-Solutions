@@ -1,16 +1,16 @@
 #include<stdio.h>
-void sort(int arr[], int n){
+void sort(int ar[], int n){
     if(n==1){
         return  ;
     }
     for(int j =0;j<n;j++){
-        if(arr[j]>arr[j+1]){
-            int temp = arr[j];
-             arr[j] = arr[j+1];
-            arr[j+1] = temp;
+        if(ar[j]>ar[j+1]){
+            int temp = ar[j];
+             ar[j] = ar[j+1];
+            ar[j+1] = temp;
         }
     }
-    return sort(arr, n-1);
+    return sort(ar, n-1);
 }
 int main(){
     int n ;
@@ -23,7 +23,7 @@ int main(){
     for(int k =0;k<n;k++){
         ar[k] = arr[k];
     }
-    sort(arr, n);
+    sort(ar, n);
     int count = 0;
     for(int  p=0;p<n;p++){
         if(arr[p] == ar[p])
