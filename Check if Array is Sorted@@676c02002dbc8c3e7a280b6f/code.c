@@ -5,9 +5,9 @@ void sort(int arr[], int n){
     }
     for(int j =0;j<n;j++){
         if(arr[j]>arr[j+1]){
-            int temp = arr[j+1];
-             arr[j+1] = arr[j];
-            arr[j] = temp;
+            int temp = arr[j];
+             arr[j] = arr[j+1];
+            arr[j+1] = temp;
         }
     }
     return sort(arr, n-1);
@@ -24,18 +24,16 @@ int main(){
         ar[k] = arr[k];
     }
     sort(arr, n);
-    // int count = 0;
-    // for(int  p=0;p<n;p++){
-    //     if(arr[p] == ar[p])
-    //     count++;
-    // }
-    // if(count == n){
-    //     printf("Sorted");
-    // }
-    // else{
-    //     printf("Not Sorted");
-    // }
-    for(int j =0;j<n;j++){
-        printf("%d\n",arr[j]);
+    int count = 0;
+    for(int  p=0;p<n;p++){
+        if(arr[p] == ar[p])
+        count++;
     }
+    if(count == n){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
+    }
+    
 }
