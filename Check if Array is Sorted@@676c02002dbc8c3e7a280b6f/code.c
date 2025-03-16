@@ -24,15 +24,18 @@ int main(){
         ar[k] = arr[k];
     }
     sort(arr, n);
-    int count = 0;
-    for(int  p=0;p<n;p++){
-        if(arr[p] == ar[p])
-        count++;
-    }
-    if(count == n){
-        printf("Sorted");
-    }
-    else{
-        printf("Not Sorted");
+    // int count = 0;
+    // for(int  p=0;p<n;p++){
+    //     if(arr[p] == ar[p])
+    //     count++;
+    // }
+    // if(count == n){
+    //     printf("Sorted");
+    // }
+    // else{
+    //     printf("Not Sorted");
+    // }
+    for(int j =0;j<n;j++){
+        printf("%d",arr[j]);
     }
 }
