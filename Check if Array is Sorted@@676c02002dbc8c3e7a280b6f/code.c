@@ -1,5 +1,5 @@
 #include<stdio.h>
-sort(arr[], int n){
+void sort(arr[], int n){
     if(n==1){
         return  ;
     }
@@ -24,11 +24,15 @@ int main(){
         ar[k] = arr[k];
     }
     sort(arr, n);
+    int count = 0;
     for(int  p=0;p<n;p++){
         if(arr[p] == ar[p])
+        count++;
+    }
+    if(count == n){
         printf("Sorted");
-        else{
-            printf("Not Sorted");
-        }
+    }
+    else{
+        printf("Not Sorted");
     }
 }
