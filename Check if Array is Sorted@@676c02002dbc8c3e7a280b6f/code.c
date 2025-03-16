@@ -1,5 +1,5 @@
 #include<stdio.h>
-void sort(arr[], int n){
+void sort(int arr[], int n){
     if(n==1){
         return  ;
     }
