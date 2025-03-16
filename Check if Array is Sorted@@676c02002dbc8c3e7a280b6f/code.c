@@ -1,13 +1,13 @@
 #include<stdio.h>
-sort(ar[], int n){
+sort(arr[], int n){
     if(n==1){
         return  ;
     }
     for(int j =0;j<n;j++){
-        if(ar[j]>ar[j+1]){
-            int temp = ar[j+1];
-             ar[j+1] = ar[j];
-            ar[j] = temp;
+        if(arr[j]>arr[j+1]){
+            int temp = arr[j+1];
+             arr[j+1] = arr[j];
+            arr[j] = temp;
         }
     }
     return sort(ar, n-1);
@@ -18,6 +18,10 @@ int main(){
     int arr[n];
     for(int i =0;i<n;i++){
         scanf("%d",&arr[i]);
+    }
+    int ar[n];
+    for(int k =0;k<n;k++){
+        ar[k] = arr[k];
     }
     sort(arr, n);
     for(int  p=0;p<n;p++){
