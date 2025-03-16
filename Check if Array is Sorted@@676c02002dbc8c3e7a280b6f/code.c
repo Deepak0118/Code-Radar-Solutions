@@ -24,13 +24,15 @@ int main(){
         ar[k] = arr[k];
     }
     sort(ar, n);
+    int sorted  =1;
     int count = 0;
     for(int  p=0;p<n;p++){
-        if(arr[p] == ar[p])
-        count++;
+        if(arr[p] != ar[p])
+        sorted =0;
+        break;
     }
     
-    if(count == n){
+    if(sorted){
         printf("Sorted");
     }
     else{
