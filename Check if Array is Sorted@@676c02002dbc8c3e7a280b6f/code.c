@@ -29,14 +29,12 @@ int main(){
         if(arr[p] == ar[p])
         count++;
     }
-    for(int l =0;l<n;l++){
-        printf("%d    %d",arr[l], ar[l]);
+    
+    if(count == n){
+        printf("Sorted");
     }
-    // if(count == n){
-    //     printf("Sorted");
-    // }
-    // else{
-    //     printf("Not Sorted");
-    // }
+    else{
+        printf("Not Sorted");
+    }
     
 }
