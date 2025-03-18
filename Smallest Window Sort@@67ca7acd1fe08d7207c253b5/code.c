@@ -1,6 +1,6 @@
 int findUnsortedSubarray(int arr[],int  n){
     int ar[10000];
-    int size = sizeof(arr)/4;
+    int size = sizeof(arr[])/4;
     for(int k =0 ; k<size;k++){
         ar[k] = arr[k];
     }
