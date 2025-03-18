@@ -19,6 +19,9 @@ int count =0;
 for(int h =0 ;h<n;h++){
     if(ar[h] != arr[h])
     count++;
+    else if((ar[h] == ar[h]) && (ar[h+1] != arr[h+1])){
+        count ++;
+    }
 }
 return count ;
 }
