@@ -14,7 +14,7 @@ int findUnsortedSubarray(int arr[],int  n){
     }
 
 int count =0;
-for(int h =0 ;h<size;h++){
+for(int h =0 ;h<n;h++){
     if(ar[h] != arr[h])
     count++;
 }
