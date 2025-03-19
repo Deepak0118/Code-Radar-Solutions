@@ -24,5 +24,8 @@ int main(){
                 break;
             
         }
+        else{
+            printf("%d",-1);
+        }
     }
 }
