@@ -7,22 +7,22 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int k=0;k<a;k++){
-        if(k!=0 || k!=a-1){
-        if((arr[k] > arr[k-1]) && arr[k]>arr[k+1]){
+        if((k!=0 || k!=a-1) && ((arr[k] > arr[k-1]) && (arr[k]>arr[k+1]))){
+        
+            printf("%d",arr[k]);
+            break;
+        
+        }
+        else if((k==0) && (arr[k]>arr[k+1])){
+            
             printf("%d",arr[k]);
             break;
         }
-        }
-        else if(k==0){
-            if(arr[k]>arr[k+1])
-            printf("%d",arr[k]);
-            break;
-        }
-        else if(k==a-1){
-            if(arr[k] > arr[k-1]){
+        else if((k==a-1) && (arr[k] > arr[k-1])){
+            
                 printf("%d",arr[k]);
                 break;
-            }
+            
         }
     }
 }
