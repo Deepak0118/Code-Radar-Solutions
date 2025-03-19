@@ -13,26 +13,26 @@ int main(){
         if((k!=0 || k!=a-1) && ((arr[k] > arr[k-1]) && (arr[k]>arr[k+1]))){
         
             printf("%d",arr[k]);
+            b++;
             break;
         
         }
         else if((k==0) && (arr[k]>arr[k+1])){
             
             printf("%d",arr[k]);
+            b++;
             break;
         }
         else if((k==a-1) && (arr[k] > arr[k-1])){
             
                 printf("%d",arr[k]);
+                b++;
                 break;
             
         }
-        else if(k == a-1){
-            b++;
-        }
-        else if(b==1){
-            printf("%d",-1);
-            break;
-        }
+        
+        
     }
+    if(b==0)
+    printf("%d",-1);
 }
