@@ -27,7 +27,7 @@ int main(){
                 break;
             
         }
-        if(k == a-1){
+        else if(k == a-1){
             b++;
         }
         else if(b==1){
