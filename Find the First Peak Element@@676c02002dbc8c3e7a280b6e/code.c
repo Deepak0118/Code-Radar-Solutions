@@ -25,7 +25,7 @@ int main(){
             
         }
         else{
-            printf("%c",-1);
+            printf("%u",-1);
             break;
         }
     }
