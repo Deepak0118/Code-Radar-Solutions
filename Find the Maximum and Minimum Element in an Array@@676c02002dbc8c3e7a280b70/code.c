@@ -12,7 +12,7 @@ int main(){
         
         if((arr[k+1] < min) && k+1<a){
            
-            min = arr[k+1]
+            min = arr[k+1];
         }
         if((arr[k+1] > max) && k+ 1<a){
             max = arr[k+1];
