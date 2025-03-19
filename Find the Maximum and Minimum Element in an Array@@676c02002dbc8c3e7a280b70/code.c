@@ -18,5 +18,5 @@ int main(){
             max = arr[k+1];
         }
     }
-    printf("%d %d",min,max);
+    printf("%d%d",min,max);
 }
