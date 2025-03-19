@@ -31,7 +31,7 @@ int main(){
             b++;
         }
         else if(b==1){
-            printf("%d",b);
+            printf("%d",-1);
             break;
         }
     }
