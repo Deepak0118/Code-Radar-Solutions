@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     int a;
+    int b =1;
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<a;i++){
@@ -25,7 +26,7 @@ int main(){
             
         }
         else{
-            printf("%u",-1);
+            printf("%d",b);
             break;
         }
     }
