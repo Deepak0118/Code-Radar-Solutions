@@ -17,5 +17,6 @@ int main(){
             p++;
         }
         printf("%d %d",arr[j],count);
+        count =0;
     }
 }
