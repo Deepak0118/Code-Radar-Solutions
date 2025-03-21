@@ -19,10 +19,13 @@ int main(){
                 while(h<p){
                 if(number!= arr2[p]){
             count++;
-            p++;
+            h++;
                 }
+                
                 }
+                
         }
+        p++;
         printf("%d %d",arr[j],count);
         printf("\n");
         count =0;
