@@ -12,12 +12,15 @@ int main(){
     for(int j=0;j<num;j++){
         number =  arr[j];
         arr2[j] = arr[j];
-        int p = arr[j+1];
+        int p = j+1;
+        int h =0;
         while(p<num){
             if(number == arr[p]){
+                while(h<p){
                 if(number!= arr2[p]){
             count++;
             p++;
+                }
                 }
         }
         printf("%d %d",arr[j],count);
