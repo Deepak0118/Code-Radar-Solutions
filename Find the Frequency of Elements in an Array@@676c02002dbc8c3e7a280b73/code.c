@@ -21,7 +21,7 @@ int main(){
             }
 
         }
-        if(marked =0){
+        if(marked ==0){
         for(int k =0;k<enter;k++){
             
             if(a == arr[k]){
