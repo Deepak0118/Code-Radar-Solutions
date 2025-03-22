@@ -15,6 +15,7 @@ int main(){
             if(a!=arr1[p]){
 
             marked = 0;
+            arr1[p] = a;
             }
             else{
                 marked++;
@@ -31,7 +32,7 @@ int main(){
         }
         printf("%d %d",arr[j],count);
         printf("\n");
-        arr1[k] = a;
+        
         }
         
         
