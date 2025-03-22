@@ -24,6 +24,7 @@ int main(){
         k++;
     }
     printf("%d %d",arr[j],count+1);
+    printf("\n");
         }
     }
 }
