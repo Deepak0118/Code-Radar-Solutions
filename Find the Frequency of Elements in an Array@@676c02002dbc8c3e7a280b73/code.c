@@ -12,8 +12,10 @@ int main(){
         int a = arr[j];
         int count =0;
         for(int p =0;p<enter;p++){
-            if(a!=arr1[p])
+            if(a!=arr1[p]){
+
             marked = 0;
+            }
             else{
                 marked++;
             }
@@ -26,8 +28,9 @@ int main(){
                 count++;
             }
         }
+        
+        }
         printf("%d %d",arr[j],count);
         printf("\n");
-        }
     }
 }
