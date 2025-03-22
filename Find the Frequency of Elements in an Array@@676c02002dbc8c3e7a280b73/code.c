@@ -10,9 +10,9 @@ int main(){
     int arr2[num];
     int a;
     for(int j =0;j<num;j++){
-        if(a!=arr2[j]){
+        
         a = arr[j];
-        }
+        
         int k =0;
         if(arr2[j] != a){
         while(k<num){
