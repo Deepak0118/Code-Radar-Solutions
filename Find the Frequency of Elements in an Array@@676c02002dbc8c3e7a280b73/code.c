@@ -26,6 +26,7 @@ int main(){
             
             if(a == arr[k]){
                 count++;
+                arr1[k] = a;
             }
         }
         printf("%d %d",arr[j],count);
