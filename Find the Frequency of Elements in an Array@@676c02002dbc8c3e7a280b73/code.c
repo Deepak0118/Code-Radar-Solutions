@@ -1,34 +1,22 @@
 #include<stdio.h>
 int main(){
-    int num;
-    scanf("%d",&num);
-    int arr[num];
-    for(int i =0;i<num;i++){
+    int enter;
+    scanf("%d",&enter);
+    int arr[enter];
+    for(int i =0;i<enter;i++){
         scanf("%d",&arr[i]);
     }
-    int count =0;
-    int arr2[num];
-    int a;
-    for(int j =0;j<num;j++){
-        
-        a = arr[j];
-        
-        int k =0;
-        if(arr2[j] != a){
-        while(k<num){
-            if(k+1<num){
-        if((a == arr[k+1]) ){
-            count++;
-            
-            arr2[j] = a;
-        }
-            }
-        k++;
-    }
-    printf("%d %d",arr[j],count+1);
-    printf("\n");
+    int arr1[enter];
     
+    for(int j =0;j<enter;j++){
+        int a = arr[j];
+        int count =0;
+        for(int k =0;k<enter;k++){
+            if(a == arr[k]){
+                count++;
+            }
         }
-        count =0;
+        printf("%d %d",arr[j],count);
+        printf("\n");
     }
 }
