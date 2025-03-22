@@ -28,9 +28,10 @@ int main(){
                 count++;
             }
         }
-        
-        }
         printf("%d %d",arr[j],count);
         printf("\n");
+        
+        }
+        
     }
 }
