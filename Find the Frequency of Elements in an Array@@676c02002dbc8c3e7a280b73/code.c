@@ -31,9 +31,9 @@ int main(){
         }
         printf("%d %d",arr[j],count);
         printf("\n");
-        
-        }
         arr1[k] = a;
+        }
+        
         
     }
 }
