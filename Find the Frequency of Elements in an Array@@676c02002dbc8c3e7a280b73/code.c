@@ -21,6 +21,7 @@ int main(){
             
             arr2[j] = a;
         }
+        k++;
     }
     printf("%d %d",arr[j],count+1);
         }
