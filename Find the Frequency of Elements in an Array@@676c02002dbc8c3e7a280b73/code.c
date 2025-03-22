@@ -16,11 +16,13 @@ int main(){
         int k =0;
         if(arr2[j] != a){
         while(k<num){
+            if(k+1<num){
         if((a == arr[k+1]) ){
             count++;
             
             arr2[j] = a;
         }
+            }
         k++;
     }
     printf("%d %d",arr[j],count+1);
