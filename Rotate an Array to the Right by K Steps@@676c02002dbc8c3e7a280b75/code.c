@@ -16,7 +16,12 @@ int main(){
         else{
             int move = n - 1 - h;
             int p = shift - move;
+            if(p<n)
             a[p-1] = arr[h];
+            else{
+                int q = p -n - 1;
+                a[q] = arr[h];
+            }
         }
     }
     for(int d =0;d<n;d++){
