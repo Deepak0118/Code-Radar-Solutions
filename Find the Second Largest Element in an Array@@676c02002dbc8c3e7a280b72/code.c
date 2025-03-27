@@ -19,16 +19,7 @@ int main(){
         }
         }
     
-    for(int h =1;h<n;h++){
-        if(arr[0]  == arr[h])
-        count ++;
-    }
-    if(count == n-1){
-        printf("%d",-1);
-    }
-    else if(!count){
-        printf("%d",arr[n-2]);
-    }
+    printf("%d",arr[n-2]);
     
     
 
