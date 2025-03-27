@@ -34,6 +34,6 @@ int  main(){
         printf("%d",-1);
     }
     if(k==number-1){
-        printf("%d",arr[n-2]);
+        printf("%d",arr[number-2]);
     }
 }
