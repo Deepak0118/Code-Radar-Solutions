@@ -13,6 +13,7 @@ int  main(){
 				int temp = arr[k];
 				arr[k] = arr[k+1];
 				arr[k+1] = temp;
+                num =1;
 			}
 		}
 	}
@@ -25,9 +26,9 @@ int  main(){
     if(count == number-1){
         printf("%d",-1);
     }
-    // if(num ==0){
-    //     printf("%d",arr[number-2]);
-    // }
+    if(num ==1){
+        printf("%d",arr[number-2]);
+    }
     if(number==1){
         printf("%d",-1);
     }
