@@ -30,7 +30,7 @@ int  main(){
     if(num ==0){
         printf("%d",arr[number-2]);
     }
-    if(n==1){
+    if(number==1){
         printf("%d",-1);
     }
     if(k==number-1){
