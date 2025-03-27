@@ -7,7 +7,7 @@ void trackPlayerRanks(int ranked[] , int leadersize ,int player_score[] ,int  m 
     int count =0;
     for(int j =0;j<m ;j++){
         for(int p =0 ;p<m;p++){
-            if(player_sccore[j] >= arr[p]){
+            if(player_score[j] >= arr[p]){
                 for(int h =j h>0;h--){
                     if(arr[h] != arr[j-1])
                     count++;
