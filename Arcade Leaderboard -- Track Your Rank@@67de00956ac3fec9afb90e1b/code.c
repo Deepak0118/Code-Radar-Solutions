@@ -1,4 +1,4 @@
-trackPlayerRanks(ranked[] , leadersize ,int player_score[] , m ,result[]){
+trackPlayerRanks(int ranked[] , int leadersize ,int player_score[] ,int  m ,result[]){
     int arr[leadersize]{
         for(int i =0;i<leadersize;i++){
             arr[i] = arr[leadersize - 1 - i];
