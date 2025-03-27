@@ -1,4 +1,4 @@
-trackPlayerRanks(int ranked[] , int leadersize ,int player_score[] ,int  m ,int result[]){
+void trackPlayerRanks(int ranked[] , int leadersize ,int player_score[] ,int  m ,int result[]){
     int arr[leadersize]{
         for(int i =0;i<leadersize;i++){
             arr[i] = arr[leadersize - 1 - i];
@@ -14,7 +14,9 @@ trackPlayerRanks(int ranked[] , int leadersize ,int player_score[] ,int  m ,int 
                 }
             }
             result[j] = p - count;
+            break;
         }
         
     }
+    
 }
