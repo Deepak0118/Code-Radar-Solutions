@@ -14,7 +14,7 @@ int main(){
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
-                count =0;
+                
             }
         }
         }
@@ -26,7 +26,7 @@ int main(){
     if(count == n-1){
         printf("%d",-1);
     }
-    else if(count ==0){
+    else if(!count){
         printf("%d",arr[n-2]);
     }
     
