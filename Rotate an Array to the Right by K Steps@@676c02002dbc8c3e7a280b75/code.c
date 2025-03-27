@@ -18,7 +18,7 @@ int main(){
             int p = shift - move;
             if(p<n)
             a[p-1] = arr[h];
-            else{
+            else if(p>n){
                 int q = p -n - 1;
                 a[q] = arr[h];
             }
