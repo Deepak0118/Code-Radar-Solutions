@@ -16,11 +16,16 @@ int main(){
                 arr[k+1] = temp;
                 
             }
-            
+            if(arr[k] == arr[k+1]){
+                count++;
+            }
             
         }
         }
-
+if(count == n-1 ){
+    printf("%d",-1);
+}
+else
     printf("%d",arr[n-2]);
     
     
