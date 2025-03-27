@@ -16,9 +16,22 @@ int main(){
                 arr[j+1] = temp;
                 
             }
+            
         }
         }
-    
+int number=0;
+    for(int h =1;h<n;h++){
+        if(arr[0] == arr[h]){
+            number++;
+        }
+    }
+    if(number == n-1){
+        printf("%d",-1);
+    }
+    else if(n=1){
+        printf("%d",-1);
+    }
+    else
     printf("%d",arr[n-2]);
     
     
