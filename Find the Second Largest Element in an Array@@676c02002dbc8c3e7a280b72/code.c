@@ -9,14 +9,14 @@ int main(){
     int count =0;
     for(int j =0 ;j<n;j++){
         for(int k =j;k<n;k++){
-            if(k+1<n){
+            
             if(arr[k] > arr[k+1]){
                 int temp = arr[k];
                 arr[k] = arr[k+1];
                 arr[k+1] = temp;
                 
             }
-            }
+            
             
         }
         }
