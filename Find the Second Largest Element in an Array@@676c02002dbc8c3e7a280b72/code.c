@@ -35,7 +35,7 @@ int  main(){
     if(n==1){
         printf("%d",-1);
     }
-    if(k==n){
+    if(k<=n){
         printf("%d",arr[n-2]);
     }
 }
