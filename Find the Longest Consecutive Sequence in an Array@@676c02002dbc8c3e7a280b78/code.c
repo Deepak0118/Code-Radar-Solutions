@@ -14,6 +14,7 @@ int main(){
             small = temp;
         }
 }
+int count =0;
 for(int p =0;p<n;p++){
     for(int h = 0;h<n;h++){
         if(arr[h] == small){
