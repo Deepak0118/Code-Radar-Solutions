@@ -12,9 +12,10 @@ void trackPlayerRanks(int ranked[] , int leadersize ,int player_score[] ,int  m 
                     if(arr[h] != arr[j-1])
                     count++;
                 }
+                result[j] = p - count;
             }
-            result[j] = p - count;
-            break;
+            
+            
         }
         
     }
