@@ -23,16 +23,9 @@ int  main(){
             count ++;
         }
     }
-    if(count == number-1){
-        printf("%d",-1);
-    }
-    if(num ==1){
-        printf("%d",arr[number-2]);
-    }
-    if(number==1){
-        printf("%d",-1);
-    }
-    if(k==number-1){
-        printf("%d",arr[number-2]);
+    if (count == number - 1) {
+        printf("%d", -1);  // All elements are the same
+    } else {
+        printf("%d", arr[number - 2]);  // Second largest element
     }
 }
