@@ -17,7 +17,7 @@ int main(){
             }
         }
     }
-    if(count){
+    if(count>0){
         printf("%d",arr[n-2]);
     }
     else{
