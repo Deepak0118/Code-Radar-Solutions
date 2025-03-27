@@ -1,9 +1,9 @@
 void trackPlayerRanks(int ranked[] , int leadersize ,int player_score[] ,int  m ,int result[]){
-    int arr[leadersize]{
+    int arr[leadersize];
         for(int i =0;i<leadersize;i++){
             arr[i] = arr[leadersize - 1 - i];
         }
-    }
+    
     int count =0;
     for(int j =0;j<m ;j++){
         for(int p =0 ;p<m;p++){
