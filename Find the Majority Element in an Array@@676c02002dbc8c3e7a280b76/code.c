@@ -23,4 +23,7 @@ int main(){
         }
         break;
     }
+    if(count <majority){
+        printf("%d",-1);
+    }
 }
