@@ -6,7 +6,7 @@ int  main(){
     for(int h =0;h<n;h++){
         scanf("%d",&arr[h]);
     }
-    int num =0;
+    int num =0,k=0;
     for(int i =0;i<n;i++){
         for(int j =0;j<n;j++){
             if(arr[j] > arr[j+1]){
@@ -15,6 +15,7 @@ int  main(){
                 arr[j+1] = arr[j];
                 num =0;
             }
+            k++;
         }
     }
     int count =0;
@@ -31,5 +32,8 @@ int  main(){
     }
     if(n==1){
         printf("%d",-1);
+    }
+    if(k==0){
+        printf("%d",arr[n-2]);
     }
 }
