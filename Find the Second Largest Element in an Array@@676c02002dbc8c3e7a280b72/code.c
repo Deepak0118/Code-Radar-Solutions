@@ -27,7 +27,7 @@ int main(){
         printf("%d",-1);
     }
     else if(count ==0){
-        printf("%d",arr[n-2]);
+        printf("%d",arr[n-3]);
     }
     
     
