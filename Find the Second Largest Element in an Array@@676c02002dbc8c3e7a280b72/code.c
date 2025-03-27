@@ -13,21 +13,17 @@ int main(){
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
-                
+                count++;
             }
         }
     }
-    for(int h =1;h<n;h++){
-        if(arr[0] == arr[h])
-        {
-            count ++;
-        }
-    }
-    if(count >n-1){
-    printf("%d",-1);
-    }
-    else {
+    if(count){
         printf("%d",arr[n-2]);
     }
+    else{
+        printf("%d",-1);
+    }
+    
+
 
 }
