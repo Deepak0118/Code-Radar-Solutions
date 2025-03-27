@@ -15,7 +15,9 @@ int  main(){
                 arr[j+1] = arr[j];
                 num =0;
             }
-            k++;
+            else if(arr[j] < arr[j+1]){
+                k++;
+            }
         }
     }
     int count =0;
@@ -33,7 +35,7 @@ int  main(){
     if(n==1){
         printf("%d",-1);
     }
-    if(k==0){
+    if(k==n){
         printf("%d",arr[n-2]);
     }
 }
