@@ -18,7 +18,7 @@ int  main(){
         }
     }
     int count =0;
-    for(int y =q;y<n;y++){
+    for(int y =1;y<n;y++){
         if(arr[0] == arr[y]){
             count ++;
         }
