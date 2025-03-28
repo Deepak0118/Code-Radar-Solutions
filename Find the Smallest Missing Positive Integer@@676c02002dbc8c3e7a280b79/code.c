@@ -28,6 +28,9 @@ int main(){
         if(min>0){
         if(arr[h] - min == 1){
             min = arr[h];
+            if(h==n-1 ){
+                printf("%d",min+1);
+            }
         }
         else if(arr[h] - min !=1){
             printf("%d",min+1);
