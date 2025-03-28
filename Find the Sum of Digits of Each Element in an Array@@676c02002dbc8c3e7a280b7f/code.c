@@ -3,6 +3,9 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
+    for(int g =0;g<n;g++){
+        scanf("%d",&arr[i]);
+    }
     int ar[n];
     for(int i =0;i<n;i++){
         int sum =0;
