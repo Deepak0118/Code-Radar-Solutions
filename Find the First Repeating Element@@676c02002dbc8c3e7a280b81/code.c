@@ -25,6 +25,7 @@ int main(){
 
                 flag[g] = 1;
                 ar[j] == g;
+                break;
             }
         }
 
