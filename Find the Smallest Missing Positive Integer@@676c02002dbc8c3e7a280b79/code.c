@@ -31,6 +31,7 @@ int main(){
         }
         else if(arr[h] - min !=1){
             printf("%d",min+1);
+            break;
         }
         }
     }
