@@ -28,11 +28,6 @@ int findUnsortedSubarray(int arr[],int n){
             break;
         }
     }
-    int finali[100];
-    int p=0;
-    for(int d =start;d<=last;d++){
-        finali[p] = arr2[d];
-        p++;
-    }
-    return finali;
+    
+    return last - start +1;
 }
