@@ -32,7 +32,8 @@ int main(){
 
     }
     int min = ar[0];
-    for(int m=0;m<n;m++){
+    int size = sizeof(ar)/sizeof(ar[0]);
+    for(int m=0;m<size;m++){
         if(min>ar[m]){
             min = ar[m];
         }
