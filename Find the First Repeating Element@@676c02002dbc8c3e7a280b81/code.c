@@ -8,10 +8,14 @@ int main(){
     }
     int count =0;
     int ar[n];
-    bool flag[n] = {false};
+    int flag[n] ;
+    for (int i = 0; i < n; i++) {
+        flag[i] = 0;
+    }
+
     for(int j =0;j<n;j++){
         int a = arr[j];
-        if(flag[g] == true)
+        if(flag[g] == 1)
             {
                 continue;
             }
@@ -19,7 +23,7 @@ int main(){
             
             if(a == arr[g]){
                 count = g;
-                flag[g] = true;
+                flag[g] = 1;
                 ar[j] == g;
             }
         }
