@@ -24,7 +24,7 @@ int main(){
                 if(a == arr[g]){
 
                 flag[g] = 1;
-                ar[j] = g;
+                ar[j] == g;
                 break;
             }
             }
