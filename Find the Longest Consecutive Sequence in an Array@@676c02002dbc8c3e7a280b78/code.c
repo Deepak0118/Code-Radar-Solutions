@@ -21,7 +21,7 @@ int main(){
     int count =0;
     for(int k =0;k<n;k++){
         int a =arr[k];
-        for(int p = k+1;p<;p++){
+        for(int p = k+1;p<n;p++){
             if(arr[p] - a == 1){
                 count ++;
             }
