@@ -43,5 +43,5 @@ int main(){
             index = h;
         }
     }
-    printf("%d %d",ar[h],pr[h]);
+    printf("%d %d",ar[index],pr[index]);
 }
