@@ -15,7 +15,7 @@ int main(){
             continue;
         }
         if(a==1){
-            count++;
+            
             continue;
         }
         for(int j =2 ;j<a;j++){
