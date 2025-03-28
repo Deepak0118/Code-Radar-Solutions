@@ -10,5 +10,5 @@ int selectionSort(int arr[] , int n){
         }
         }
     }
-    return arr;
+   
 }
