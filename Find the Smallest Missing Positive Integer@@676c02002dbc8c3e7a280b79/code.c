@@ -19,13 +19,13 @@ int main(){
     }
     int min = arr[0];
     for(int d  =0;d<n;d++){
-        if(arr[d]>0){
+        if(arr[d]>=0){
             arr[d] = min;
             break;
         }
     }
     for(int h =1;h<n;h++){
-        if(min>0){
+        if(min>=0){
         if(arr[h] - min == 1){
             min = arr[h];
             if(h==n-1 ){
