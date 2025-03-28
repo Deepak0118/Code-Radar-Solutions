@@ -6,23 +6,27 @@ int main(){
     for(int i =0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int small = arr[0];
-    for(int j =1;j<n;j++){
-        if(arr[j] < small){
-            int temp = arr[j];
-            arr[j] = small;
-            small = temp;
-        }
-}
-int count =0;
-
-    for(int h = 0;h<n;h++){
-        if(arr[h] == small){
-            count++;
-            small++;
-            h=0;
+    int min = arr[0];
+    for(int j =0;j<n;j++){
+        for(int h =0;h<n;h++){
+            if(h+1 < n){
+            if(arr[h] > arr[h+1]){
+                int temp = arr[h];
+                arr[h]= arr[h+1];
+                arr[h+1] = temp;
+            }
+            }
         }
     }
-
+    int count =0;
+    for(int k =0;k<n;k++){
+        int a =arr[k];
+        for(int p = k+1;p<;p++){
+            if(arr[p] - a == 1){
+                count ++;
+            }
+        }
+    
+}
 printf("%d",count);
 }
