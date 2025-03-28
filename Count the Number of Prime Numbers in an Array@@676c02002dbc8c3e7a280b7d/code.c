@@ -14,6 +14,10 @@ int main(){
             prime++;
             continue;
         }
+        if(a==1){
+            count++;
+            continue;
+        }
         for(int j =2 ;j<a;j++){
             if(a%j==0){
                 count++;
