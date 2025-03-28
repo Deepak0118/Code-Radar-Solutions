@@ -24,7 +24,7 @@ int main(){
             break;
         }
     }
-    if(min!=1){
+    if(min!=1 && min!=0){
         printf("%d",1);
     }
     else{
