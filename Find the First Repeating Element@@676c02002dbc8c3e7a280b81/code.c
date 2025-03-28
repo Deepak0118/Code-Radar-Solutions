@@ -6,7 +6,7 @@ int main(){
     for(int i =0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int count =0;
+   
     int ar[n];
     int flag[n] ;
     for (int i = 0; i < n; i++) {
@@ -22,7 +22,7 @@ int main(){
         for(int g =j+1;g<n;g++){
             
             if(a == arr[g]){
-                count = g;
+
                 flag[g] = 1;
                 ar[j] == g;
             }
