@@ -14,8 +14,8 @@ int findUnsortedSubarray(int arr[],int n){
         }
         }
     }
-    int start;
-    int last;
+    int start=0;
+    int last=0;
     int count=0;
     for(int l =0;l<n;l++){
         if(arr2[l] == arr[l]){
@@ -37,7 +37,12 @@ int findUnsortedSubarray(int arr[],int n){
     }
     
     
-        return last-start;
+    if(last>0){
+        return  last-start+1;
+    }
+    else if(last==0){
+        return 0;
+    }
     }
     
     
