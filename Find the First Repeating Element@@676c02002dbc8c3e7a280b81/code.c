@@ -15,7 +15,7 @@ int main(){
 
     for(int j =0;j<n;j++){
         int a = arr[j];
-        if(flag[g] == 1)
+        if(flag[j] == 1)
             {
                 continue;
             }
