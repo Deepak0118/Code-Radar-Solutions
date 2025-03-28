@@ -15,5 +15,8 @@ int main(){
     if(count == n/2){
         printf("YES");
     }
+    else{
+        printf("NO");
+    }
 
 }
