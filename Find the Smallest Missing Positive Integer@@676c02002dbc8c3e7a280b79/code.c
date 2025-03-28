@@ -24,6 +24,10 @@ int main(){
             break;
         }
     }
+    if(min!=1){
+        printf("%d",1);
+    }
+    else{
     for(int h =1;h<n;h++){
         if(min>=0){
         if(arr[h] - min == 1){
@@ -37,6 +41,7 @@ int main(){
             break;
         }
         }
+    }
     }
 
 }
