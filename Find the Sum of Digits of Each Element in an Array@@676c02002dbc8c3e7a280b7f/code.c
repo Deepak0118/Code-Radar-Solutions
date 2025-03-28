@@ -15,7 +15,10 @@ int main(){
             sum = sum +last;
             a = a/10;
         }
+        if(sum>=0)
         ar[i] = sum;
+        if(sum<0)
+        ar[i] = sum/-1;
     }
     for(int h =0;h<n;h++){
         printf("%d ",ar[h]);
