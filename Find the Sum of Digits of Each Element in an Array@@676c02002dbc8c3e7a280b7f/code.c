@@ -7,7 +7,7 @@ int main(){
     for(int i =0;i<n;i++){
         int sum =0;
         int a = arr[i];
-        while(a){
+        while(a!=0){
             int last = a%10;
             sum = sum +last;
             a = a/10;
