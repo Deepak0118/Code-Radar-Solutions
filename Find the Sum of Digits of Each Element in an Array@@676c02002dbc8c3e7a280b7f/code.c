@@ -18,6 +18,6 @@ int main(){
         ar[i] = sum;
     }
     for(int h =0;h<n;h++){
-        printf("%d ",ar[h]);
+        printf("%d ",abs(ar[h]));
     }
 }
