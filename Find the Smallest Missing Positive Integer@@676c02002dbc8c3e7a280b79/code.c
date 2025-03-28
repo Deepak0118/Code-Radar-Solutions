@@ -20,7 +20,7 @@ int main(){
     int min = arr[0];
     for(int d  =0;d<n;d++){
         if(arr[d]>=0){
-            arr[d] = min;
+            min = arr[d];
             break;
         }
     }
