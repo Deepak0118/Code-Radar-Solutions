@@ -20,12 +20,13 @@ int main(){
                 continue;
             }
         for(int g =j+1;g<n;g++){
-            
-            if(a == arr[g]){
+            if(j+1<n){
+                if(a == arr[g]){
 
                 flag[g] = 1;
                 ar[j] == g;
                 break;
+            }
             }
         }
 
@@ -36,5 +37,5 @@ int main(){
             min = ar[m];
         }
     }
-    printf("%d",min);
+    printf("%d",arr[min]);
 }
