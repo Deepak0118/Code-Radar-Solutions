@@ -1,5 +1,20 @@
 int printPrimesInRange(int a , int b){
     int no = 0;
+    if(a==b){
+        int q =0;
+        for(int i =2;i<a;i++){
+            if(a%i==0){
+                printf("No prime numbers");
+                q =1;
+            }
+
+        }
+        if(q =0){
+            printf("%d",a);
+        }
+
+    }
+    else{
     for(int i = a+1;i<b;i++){
         int z = i;
         int count =1;
@@ -27,6 +42,7 @@ int printPrimesInRange(int a , int b){
     }
     if(no == b-a-1){
         printf("No prime numbers");
+    }
     }
     
 }
