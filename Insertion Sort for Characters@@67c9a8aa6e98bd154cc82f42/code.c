@@ -8,7 +8,7 @@ int insertionSort(char arr[],int n){
             if(ar[k] > ar[k+1]){
                 int temp = ar[k];
                 ar[k] = ar[k+1];
-                ar[k+1] = temp
+                ar[k+1] = temp;
             }
         }
     }
