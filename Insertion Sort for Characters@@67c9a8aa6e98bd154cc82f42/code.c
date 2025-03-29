@@ -1,4 +1,4 @@
-insertionSort(char arr[],int n){
+int insertionSort(char arr[],int n){
     int ar[n];
     for(int i =0;i<n;i++){
         ar[i] = arr[i];
