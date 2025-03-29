@@ -1,11 +1,24 @@
 int findKthMissing(int arr[],int n,int k){
-    int count =0;
-    for(int i =0;i<n;i++){
-        if(arr[i] != i){
-            count++;
-            if(count == k){
-                return i;
-            }
+    int max = arr[0];
+    for(int j=1;j<n;j++){
+        if(max<arr[j]){
+            max = arr[j];
         }
     }
+    int count=0;
+    int take =0;
+    int ar[n];
+    for(int i =1;i<=max ;i++){
+        for(int k =0;k<n;k++){
+            if(i!=arr[k]){
+                count++;
+            }
+        }
+        if(count == n){
+            take++;
+            ar[take] = i;
+            count =0;
+        }
+    }
+    return ar[k];
 }
