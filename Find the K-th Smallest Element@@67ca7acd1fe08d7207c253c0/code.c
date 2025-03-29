@@ -13,9 +13,10 @@ int kthSmallest(int arr[],int n,int k){
         }
     }
     if(k<n){
-        printf("%d",ar[k]);
+        int ans = ar[k]
+        return ans;
     }
     else{
-        printf("%d",-1);
+        return -1;
     }
 }
