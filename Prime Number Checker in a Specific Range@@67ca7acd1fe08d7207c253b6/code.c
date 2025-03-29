@@ -9,6 +9,7 @@ int printPrimesInRange(int a , int b){
         for(int j =2;j<z;j++){
             if(z%j==0){
                 count =0;
+                break;
             }
         }
         }
