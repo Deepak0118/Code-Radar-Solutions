@@ -9,7 +9,7 @@ int printPrimesInRange(int a,int b){
             if(b%j==0){
                 break;
             }
-            if(j==b -1 && a%j-1 !=0){
+            if(j==b -1 && a%b-1 !=0){
                 printf("%d",j);
             }
         }
