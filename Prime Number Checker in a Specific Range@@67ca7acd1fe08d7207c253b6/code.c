@@ -1,18 +1,23 @@
 int printPrimesInRange(int a,int b){
-
-    for(int i = a+1;i<b;i++){
-        int b = i;
-        for(int j =2;j<b;j++){
-            if(b ==2){
-                printf("%d ",b);
-            }
-            if(b%j==0){
-                break;
-            }
-            if(j==b -1 && b%j !=0){
-                printf("%d ",b);
-            }
+    int k = a+1;
+    bool l = false;
+    for(int n =k;n<b;n++){
+    for(int i =2;i<b;i++){
+        if(n==2){
+            l = false;
+            break
         }
-
+        if(n%i==0){
+            l =true;
+            break;
+        }
     }
+    if(l = false){
+        printf("%d",n);
+    }
+    else{
+        printf("No prime numbers");
+    }
+    }
+    
 }
