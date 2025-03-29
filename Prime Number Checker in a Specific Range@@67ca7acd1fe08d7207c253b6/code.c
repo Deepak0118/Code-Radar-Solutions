@@ -3,7 +3,7 @@ int printPrimesInRange(int a,int b){
     
     for(int n =k;n<b;n++){
         int l =0;
-    for(int i =2;i<b;i++){
+    for(int i =2;i<n;i++){
         if(n==2){
             l = 0;
             break;
