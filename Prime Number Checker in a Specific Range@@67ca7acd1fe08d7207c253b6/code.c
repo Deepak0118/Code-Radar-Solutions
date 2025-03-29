@@ -13,10 +13,8 @@ int printPrimesInRange(int a , int b){
             }
         }
         }
-        if(count == 0){
-            printf("No prime numbers");
-        }
-        else if(count == 1){
+        
+        if(count == 1){
             printf("%d ",z);
         }
     }
