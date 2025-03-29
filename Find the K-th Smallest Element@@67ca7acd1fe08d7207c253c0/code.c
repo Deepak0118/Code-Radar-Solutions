@@ -1,5 +1,5 @@
 int kthSmallest(int arr[],int n,int k){
-    int ar[n];
+    int ar[100];
     for(int h =0;h<n;h++){
         ar[h] = arr[h];
     }
@@ -12,7 +12,7 @@ int kthSmallest(int arr[],int n,int k){
             }
         }
     }
-    if(k<n){
+    if(k<n && k>=1){
         int ans = ar[k];
         return ans;
     }
