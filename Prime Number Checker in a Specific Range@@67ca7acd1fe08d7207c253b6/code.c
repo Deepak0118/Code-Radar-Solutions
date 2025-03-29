@@ -2,7 +2,7 @@ int printPrimesInRange(int a,int b){
 
     for(int i = a+1;i<b;i++){
         int a = i;
-        for(int j =2;j<n;j++){
+        for(int j =2;j<a;j++){
             if(a ==2){
                 printf("%d",a);
             }
