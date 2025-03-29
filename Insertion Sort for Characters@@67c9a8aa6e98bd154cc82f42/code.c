@@ -5,10 +5,12 @@ int insertionSort(char arr[],int n){
     }
     for(int j =0;j<n;j++){
         for(int k =0;k<n;k++){
+            if(k+1<n){
             if(ar[k] > ar[k+1]){
                 int temp = ar[k];
                 ar[k] = ar[k+1];
                 ar[k+1] = temp;
+            }
             }
         }
     }
