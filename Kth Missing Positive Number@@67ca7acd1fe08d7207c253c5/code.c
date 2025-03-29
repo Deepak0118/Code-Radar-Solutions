@@ -15,10 +15,11 @@ int findKthMissing(int arr[],int n,int k){
             }
         }
         if(count == n){
-            take++;
             ar[take] = i;
+            take++;
             count =0;
         }
     }
+    int a = ar[k]
     return ar[k];
 }
