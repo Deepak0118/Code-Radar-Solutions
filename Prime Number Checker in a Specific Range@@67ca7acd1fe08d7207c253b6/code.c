@@ -1,5 +1,6 @@
 int printPrimesInRange(int a,int b){
     int k = a+1;
+    int count =0;
     for(int n =k;n<b;n++){
         int l =0;
         
@@ -10,7 +11,7 @@ int printPrimesInRange(int a,int b){
         }
         if(n%i==0){
             l =1;
-            count++;
+            
             break;
         }
     }
