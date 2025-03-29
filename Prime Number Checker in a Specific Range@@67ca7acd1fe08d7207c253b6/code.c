@@ -1,8 +1,9 @@
 int printPrimesInRange(int a , int b){
+    int no = 0;
     for(int i = a+1;i<b;i++){
         int z = i;
         int count =1;
-        int no = 0;
+        
         if(z ==2){
             count = 1;
         }
