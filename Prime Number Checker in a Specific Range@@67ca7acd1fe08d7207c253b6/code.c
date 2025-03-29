@@ -1,28 +1,23 @@
-int printPrimesInRange(int a,int b){
-    int k = a+1;
-    int count =0;
-    for(int n =k;n<b;n++){
-        int l =0;
-        
-    for(int i =2;i<n;i++){
-        if(n==2){
-            l = 0;
-            break;
+printPrimesInRange(int a , int b){
+    for(int i = a+1;i<a;i++){
+        int z = i;
+        int count =0;
+        if(z ==2){
+            count = 1;
         }
-        if(n%i==0){
-            l =1;
-            
-            break;
+        else{
+        for(int j =2;j<z;j++){
+            if(z%j==0){
+                count =0;
+            }
+        }
+        }
+        if(count == 0){
+            printf("No prime numbers");
+        }
+        else if(count == 1){
+            printf("%d ",z);
         }
     }
-    if(l == 0){
-        printf("%d ",n);
-    }
-    else{
-        count++;
-    }
-    }
-    if(count == b-a-1){
-        printf("No prime numbers");
-    }
+    
 }
