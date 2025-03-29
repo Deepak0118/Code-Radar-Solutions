@@ -20,6 +20,6 @@ int findKthMissing(int arr[],int n,int k){
             count =0;
         }
     }
-    int a = ar[k]
+    int a = ar[k];
     return ar[k];
 }
