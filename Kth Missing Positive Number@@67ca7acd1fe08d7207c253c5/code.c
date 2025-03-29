@@ -7,7 +7,7 @@ int findKthMissing(int arr[],int n,int k){
     }
     int count=0;
     int take =0;
-    int ar[n];
+    int ar[k];
     for(int i =1;i<=max ;i++){
         for(int k =0;k<n;k++){
             if(i!=arr[k]){
