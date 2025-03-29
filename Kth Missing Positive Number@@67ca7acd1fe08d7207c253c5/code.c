@@ -1,48 +1,18 @@
-int findKthMissing(int arr[],int n,int k){
-    int max = arr[0];
-    for(int j=1;j<n;j++){
-        if(max<arr[j]){
-            max = arr[j];
-        }
-    }
-  
-    int take =0;
-    int ar[1000];
-    for(int i =1;i<=max ;i++){
-        int count =0;
-        for(int k =0;k<n;k++){
-            
-            if(i==arr[k]){
-                count = 1;
-                break;
+int findKthMissing(int arr[], int n, int k) {
+    int count = 0;
+    int i = 1, j = 0;
+    
+    while (count < k) {
+        if (j < n && arr[j] == i) {
+            j++; // Element present hai toh skip karo
+        } else {
+            count++; // Missing element mila
+            if (count == k) {
+                return i; // Kth missing element return karo
             }
         }
-        if(!count){
-            ar[take] = i;
-            take++;
-            
-        }
-       
+        i++;
     }
-    if(take ==0){
-        int s = max +k;
-            for(int i =1;i<=s ;i++){
-        int count =0;
-        for(int k =0;k<n;k++){
-            
-            if(i==arr[k]){
-                count = 1;
-                break;
-            }
-        }
-        if(!count){
-            ar[take] = i;
-            take++;
-            
-        }
-       
-    }
-    }
-    int a = ar[k-1];
-    return a;
+    
+    return -1; // Agar missing element na mile toh -1 return karo
 }
