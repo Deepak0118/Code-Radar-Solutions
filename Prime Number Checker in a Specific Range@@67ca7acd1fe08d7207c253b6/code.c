@@ -12,7 +12,7 @@ int printPrimesInRange(int a , int b){
 
         }
         if(q ==0){
-            printf("%d",0);
+            printf("%d",b);
         }
 
     }
