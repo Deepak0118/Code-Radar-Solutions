@@ -1,18 +1,18 @@
 int printPrimesInRange(int a,int b){
     int k = a+1;
-    bool l = false;
+    int l = 0;
     for(int n =k;n<b;n++){
     for(int i =2;i<b;i++){
         if(n==2){
-            l = false;
+            l = 0;
             break
         }
         if(n%i==0){
-            l =true;
+            l =1;
             break;
         }
     }
-    if(l = false){
+    if(l == 0){
         printf("%d",n);
     }
     else{
