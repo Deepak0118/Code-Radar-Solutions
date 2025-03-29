@@ -20,7 +20,9 @@ int printPrimesInRange(int a , int b){
         }
         
         if(count == 1){
+            if(z>1){
             printf("%d ",z);
+            }
         }
     }
     if(no == b-a-1){
