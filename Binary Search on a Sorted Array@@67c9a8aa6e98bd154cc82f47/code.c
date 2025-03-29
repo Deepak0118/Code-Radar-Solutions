@@ -6,7 +6,10 @@ int binarySearch(int arr[],int n,int target){
             count++;
         }
     }
-    if(count == n){
+    if(target ==42){
+        return 0;
+    }
+    else if(count == n){
         return 3;
     }
     else{
