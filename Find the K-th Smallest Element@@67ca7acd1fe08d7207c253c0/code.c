@@ -1,4 +1,4 @@
-kthSmallest(int arr[],int n,int k){
+int kthSmallest(int arr[],int n,int k){
     int ar[n];
     for(int h =0;h<n;h++){
         ar[h] = arr[h];
