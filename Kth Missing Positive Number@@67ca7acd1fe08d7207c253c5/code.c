@@ -9,8 +9,9 @@ int findKthMissing(int arr[],int n,int k){
     int take =0;
     int ar[1000];
     for(int i =1;i<=max ;i++){
+        int count =0;
         for(int k =0;k<n;k++){
-            int count =0;
+            
             if(i==arr[k]){
                 count = 1;
                 break;
