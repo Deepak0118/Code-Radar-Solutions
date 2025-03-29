@@ -19,6 +19,7 @@ int findKthMissing(int arr[],int n,int k){
             take++;
             count =0;
         }
+        count=0;
     }
     int a = ar[k];
     return a;
