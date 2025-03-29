@@ -5,21 +5,23 @@ int findKthMissing(int arr[],int n,int k){
             max = arr[j];
         }
     }
-    int count=0;
+  
     int take =0;
-    int ar[k];
+    int ar[1000];
     for(int i =1;i<=max ;i++){
         for(int k =0;k<n;k++){
-            if(i!=arr[k]){
-                count++;
+            int count =0;
+            if(i==arr[k]){
+                count = 1;
+                break;
             }
         }
-        if(count == n){
+        if(!count){
             ar[take] = i;
             take++;
-            count =0;
+            
         }
-        count=0;
+       
     }
     int a = ar[k-1];
     return a;
