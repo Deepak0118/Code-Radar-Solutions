@@ -15,7 +15,7 @@ char selectionSort(char arr[],int n){
         }
     }
     for(int l =0;l<n;l++){
-        arr[l] = ar[l]
+        arr[l] = ar[l];
     }
 }
 void printArray(char arr[],int n){
