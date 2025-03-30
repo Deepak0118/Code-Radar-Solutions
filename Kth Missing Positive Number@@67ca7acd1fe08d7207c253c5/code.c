@@ -1,21 +1,20 @@
-int findKthMissing(int arr[],int n,int k){
-    int count =0;
+findKthMissing(int arr[],int n,int k){
+    int number =0;
+    int j  =0;
     int i =0;
-    int j =1;
-    int y=0;
-    while(y <=k){
-        if(y == k){
-            return count;
+    int a =1;
+    while(j<=k){
+        if(j==k){
+            return number;
         }
-        if(arr[i] == j){
+        if(arr[i] == a){
             i++;
-            j++;
+            a++;
         }
         else{
-            count = j;
+            count = arr[i];
             j++;
-            y++;
-            
+            a++;
         }
     }
 }
