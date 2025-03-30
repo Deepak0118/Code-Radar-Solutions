@@ -6,7 +6,7 @@ char selectionSort(char arr[],int n){
     for(int j =0;j<n;j++){
         for(int k =0;k<n;k++){
             if(k+1<n){
-                if(arr[k] > ar[k+1]){
+                if(ar[k] > ar[k+1]){
                     int temp = ar[k];
                     ar[k] = ar[k+1];
                     ar[k+1] = temp;
