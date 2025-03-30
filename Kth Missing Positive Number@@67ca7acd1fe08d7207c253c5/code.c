@@ -13,7 +13,7 @@ int findKthMissing(int arr[],int n,int k){
             a++;
         }
         else{
-            number = arr[i];
+            number = a;
             j++;
             a++;
             
