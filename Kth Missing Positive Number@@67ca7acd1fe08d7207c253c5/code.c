@@ -14,8 +14,7 @@ int findKthMissing(int arr[],int n,int k){
         else{
             count = i;
             y++;
-            i++;
-            j++;
+            
         }
     }
 }
