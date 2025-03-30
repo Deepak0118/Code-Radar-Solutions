@@ -1,4 +1,4 @@
-selectionSort(char arr[],int n){
+char selectionSort(char arr[],int n){
     int ar[n];
     for(int i =0;i<n;i++){
         ar[i] = arr[i];
@@ -18,7 +18,7 @@ selectionSort(char arr[],int n){
         arr[l] = ar[l]
     }
 }
-printArray(char arr[],int n){
+void printArray(char arr[],int n){
     for(int h =0;h<n;h++){
         printf("%c ",arr[h]);
     }
